@@ -11,40 +11,33 @@ What things you need to install the software and how to install them
 ```
 1. Java JDK
 2. Android Studio
-3. An Android Device
+3. An Android Device/Emulator with adb anabled
 ```
 
 ### Installing
 
-
-
 ```
-Give the example
+1. First install Java SDK
+2. Install android studio 
+3. Install Adb drivers
+4. Enable Adb on device
 ```
 
 ## Deployment
-
-Add additional notes about how to deploy this on a live system
+Import project into android studio and run on a device or emulator
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Android Studio](https://developer.android.com/studio/) - IDE used
+* Android SDK 27
+* [Firebase](https://firebase.google.com/) - DataBase/Cloud Storage
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Osaro Iyoha** - *Initial work* - [Journalize](https://github.com/Master-Osaro/Journalize)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
@@ -53,7 +46,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
-https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
+* Gino Osahon
+* Kenneth Dozie
+* Wisdom Nwokocha
+* Google
+* Andela and the ALC team
+* Group AD 19 team members and Mentor Ozioma
+* Billie Thompson (PurpleBooth) for the readme guide
