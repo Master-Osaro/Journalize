@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.NewJournalActivity"
+    tools:showIn="@layout/activity_new_journal">
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/add_journal_new_date"
+        android:layout_gravity="end"
+        android:textAlignment="viewEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/markazitext"
+        android:hint="date"
+        android:textSize="20sp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"/>
+    <EditText
+        android:focusableInTouchMode="true"
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Title"
+        android:layout_below="@id/add_journal_new_date"
+        android:fontFamily="@font/markazitext"/>
+
+    <EditText
+        android:focusableInTouchMode="true"
+        android:id="@+id/contText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Content"
+        android:lines="4"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:layout_below="@id/titleText"
+        android:fontFamily="@font/markazitext"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/contText"
+        android:id="@+id/fab_save_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_done_black_24dp" />
+
+</RelativeLayout>
